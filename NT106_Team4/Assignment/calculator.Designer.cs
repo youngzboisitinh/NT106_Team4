@@ -52,6 +52,7 @@
             // 
             // button1
             // 
+            this.button1.AccessibleName = "button_Click";
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(9, 240);
             this.button1.Name = "button1";
@@ -59,10 +60,11 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button_Click);
             // 
             // button2
             // 
+            this.button2.AccessibleName = "button_Click";
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(71, 240);
             this.button2.Name = "button2";
@@ -70,10 +72,11 @@
             this.button2.TabIndex = 0;
             this.button2.Text = "2";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Click += new System.EventHandler(this.button_Click);
             // 
             // button3
             // 
+            this.button3.AccessibleName = "button_Click";
             this.button3.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(133, 240);
             this.button3.Name = "button3";
@@ -81,7 +84,7 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "3";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button1_Click);
+            this.button3.Click += new System.EventHandler(this.button_Click);
             // 
             // button4
             // 
@@ -107,6 +110,7 @@
             // 
             // button6
             // 
+            this.button6.AccessibleName = "button_Click";
             this.button6.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(9, 287);
             this.button6.Name = "button6";
@@ -114,10 +118,11 @@
             this.button6.TabIndex = 0;
             this.button6.Text = "0";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button1_Click);
+            this.button6.Click += new System.EventHandler(this.button_Click);
             // 
             // button7
             // 
+            this.button7.AccessibleName = "button_Click";
             this.button7.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.Location = new System.Drawing.Point(133, 287);
             this.button7.Name = "button7";
@@ -125,7 +130,7 @@
             this.button7.TabIndex = 0;
             this.button7.Text = ".";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button1_Click);
+            this.button7.Click += new System.EventHandler(this.button_Click);
             // 
             // button8
             // 
@@ -140,6 +145,7 @@
             // 
             // button9
             // 
+            this.button9.AccessibleName = "button_Click";
             this.button9.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(9, 193);
             this.button9.Name = "button9";
@@ -147,10 +153,11 @@
             this.button9.TabIndex = 0;
             this.button9.Text = "4";
             this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button1_Click);
+            this.button9.Click += new System.EventHandler(this.button_Click);
             // 
             // button10
             // 
+            this.button10.AccessibleName = "button_Click";
             this.button10.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.Location = new System.Drawing.Point(71, 193);
             this.button10.Name = "button10";
@@ -158,10 +165,11 @@
             this.button10.TabIndex = 0;
             this.button10.Text = "5";
             this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button1_Click);
+            this.button10.Click += new System.EventHandler(this.button_Click);
             // 
             // button11
             // 
+            this.button11.AccessibleName = "button_Click";
             this.button11.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.Location = new System.Drawing.Point(133, 193);
             this.button11.Name = "button11";
@@ -169,7 +177,7 @@
             this.button11.TabIndex = 0;
             this.button11.Text = "6";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button1_Click);
+            this.button11.Click += new System.EventHandler(this.button_Click);
             // 
             // button12
             // 
@@ -195,6 +203,7 @@
             // 
             // button14
             // 
+            this.button14.AccessibleName = "button_Click";
             this.button14.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.Location = new System.Drawing.Point(9, 146);
             this.button14.Name = "button14";
@@ -202,10 +211,11 @@
             this.button14.TabIndex = 0;
             this.button14.Text = "7";
             this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button1_Click);
+            this.button14.Click += new System.EventHandler(this.button_Click);
             // 
             // button15
             // 
+            this.button15.AccessibleName = "button_Click";
             this.button15.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.Location = new System.Drawing.Point(71, 146);
             this.button15.Name = "button15";
@@ -217,6 +227,7 @@
             // 
             // button16
             // 
+            this.button16.AccessibleName = "button_Click";
             this.button16.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button16.Location = new System.Drawing.Point(133, 146);
             this.button16.Name = "button16";
@@ -224,7 +235,7 @@
             this.button16.TabIndex = 0;
             this.button16.Text = "9";
             this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button1_Click);
+            this.button16.Click += new System.EventHandler(this.button_Click);
             // 
             // button17
             // 
@@ -259,6 +270,7 @@
             // 
             // calculator
             // 
+            this.AccessibleName = "button_Click";
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
