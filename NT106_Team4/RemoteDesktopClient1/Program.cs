@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace RemoteDesktopClient
+namespace RemoteDesktopClient1
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace RemoteDesktopClient
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Client());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace RemoteDesktopClient
+﻿namespace RemoteDesktopClient1
 {
-    partial class Client
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -97,7 +97,7 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Client
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,7 +108,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxIP);
             this.Controls.Add(this.btnConnect);
-            this.Name = "Client";
+            this.Name = "Form1";
             this.Text = "Client";
             this.Load += new System.EventHandler(this.Client_Load);
             this.ResumeLayout(false);

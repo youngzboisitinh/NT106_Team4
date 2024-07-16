@@ -11,26 +11,27 @@ using System.Net.Sockets;
 using System.Drawing.Imaging;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Drawing.Text;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace RemoteDesktopClient
+namespace RemoteDesktopClient1
 {
-    public partial class Client : Form
+    public partial class Form1 : Form
     {
         private int portNumb;
         private readonly TcpClient client = new TcpClient();
         private NetworkStream stream;
 
-        public Client()
-            
+        public Form1()
+
 
         {
-            
-        InitializeComponent();
+
+            InitializeComponent();
         }
         private static Image GrabDesktop()
         {
             Rectangle bound = Screen.PrimaryScreen.Bounds;
-            Bitmap screenshot  = new Bitmap(bound.Width, bound.Height, PixelFormat.Format32bppArgb);
+            Bitmap screenshot = new Bitmap(bound.Width, bound.Height, PixelFormat.Format32bppArgb);
             Graphics g = Graphics.FromImage(screenshot);
             g.CopyFromScreen(bound.X, bound.Y, 0, 0, bound.Size, CopyPixelOperation.SourceCopy);
             return screenshot;
@@ -40,7 +41,7 @@ namespace RemoteDesktopClient
         {
             BinaryFormatter formatter = new BinaryFormatter();
             stream = client.GetStream();
-            formatter.Serialize(stream, GrabDesktop() );
+            formatter.Serialize(stream, GrabDesktop());
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
@@ -54,12 +55,13 @@ namespace RemoteDesktopClient
                 btnConnect.Enabled = false;
                 btnShare.Enabled = true;
             }
-            catch(Exception) {
+            catch (Exception)
+            {
                 MessageBox.Show("Fail to Connect!");
                 btnConnect.Text = "Not Connect";
             }
-         }
-        
+        }
+
 
         private void Client_Load(object sender, EventArgs e)
         {

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("SSLStreamChat")]
+[assembly: AssemblyTitle("RemoteDesktopClient1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SSLStreamChat")]
+[assembly: AssemblyProduct("RemoteDesktopClient1")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f34d253f-c84e-42b5-841c-dfb03d620c6a")]
+[assembly: Guid("6ce24690-717a-47f2-9db0-a802820b4115")]
 
 // Version information for an assembly consists of the following four values:
 //
